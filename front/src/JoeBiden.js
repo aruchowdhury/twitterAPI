@@ -14,10 +14,13 @@ const JoeBiden = () => {
   }, []);
 
   return (
-    <div class="mx-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="mx-60 my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       {tweet.map((t) => {
         return (
-          <div class="bg-purple-200 shadow-xl rounded-xl p-8" key={t.id}>
+          <div
+            class="bg-purple-300 hover:bg-purple-400 shadow-xl rounded-xl p-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+            key={t.id}
+          >
             <ul>
               <li class="text-xl font-semibold ">
                 Created At: <span>{t.created_at}</span>
