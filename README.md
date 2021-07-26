@@ -1,4 +1,4 @@
-# hilariJoe-tweets
+# joehilari-tweets
 
 ### yarn install
 
