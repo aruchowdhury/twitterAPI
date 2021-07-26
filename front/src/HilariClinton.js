@@ -24,11 +24,11 @@ const HilariClinton = () => {
             key={t.id}
           >
             <ul>
-              <li class="text-xl font-semibold ">
+              <li class="text-xl font-bold ">
                 Created At:
                 <Moment parse="YYYY-MM-DD HH:mm">{t.created_at}</Moment>
               </li>
-              <li class=" text-lg font-medium">
+              <li class=" text-xl font-medium">
                 Tweet: <span>{t.text}</span>
               </li>
             </ul>
