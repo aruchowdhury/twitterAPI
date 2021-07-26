@@ -4,16 +4,13 @@ import { AppContext } from "./AppContext";
 const JoeBiden = () => {
   const { tweet, setTweet } = useContext(AppContext);
 
-  const getTweet = () => {
+  useEffect(() => {
     fetch("http://127.0.0.1:5000/api/tweet/Joe-Biden")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
         setTweet(data);
       });
-  };
-  useEffect(() => {
-    getTweet();
   }, []);
 
   return (
