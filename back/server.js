@@ -2,8 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const util = require("util");
 const request = require("request");
-const path = require("path");
-const http = require("http");
 const cors = require("cors");
 require("dotenv").config();
 
@@ -47,8 +45,8 @@ let getTweet = async (req, res, streamURL) => {
       throw new Error(response.body.error.message);
     }
     res.send(response.body.data);
-  } catch (e) {
-    res.send(e);
+  } catch (err) {
+    res.send(err);
   }
 };
 

@@ -1,5 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { AppContext } from "./AppContext";
+import Moment from "react-moment";
+import "moment-timezone";
 
 const HilariClinton = () => {
   const { tweet, setTweet } = useContext(AppContext);
@@ -23,7 +25,8 @@ const HilariClinton = () => {
           >
             <ul>
               <li class="text-xl font-semibold ">
-                Created At: <span>{t.created_at}</span>
+                Created At:
+                <Moment parse="YYYY-MM-DD HH:mm">{t.created_at}</Moment>
               </li>
               <li class=" text-lg font-medium">
                 Tweet: <span>{t.text}</span>
