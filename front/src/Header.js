@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   font-size: 1.2rem;
-  background-color: #b8b5ff;
+  /* background-color: #b8b5ff; */
 `;
 
 const NameDiv = styled.button`

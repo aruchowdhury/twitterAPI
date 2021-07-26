@@ -5,7 +5,7 @@ const JoeBiden = () => {
   const { tweet, setTweet } = useContext(AppContext);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/tweet/Joe-Biden")
+    fetch("http://127.0.0.1:8000/api/tweet/Joe-Biden")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -14,15 +14,15 @@ const JoeBiden = () => {
   }, []);
 
   return (
-    <div>
+    <div class="mx-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       {tweet.map((t) => {
         return (
-          <div key={t.id}>
+          <div class="bg-purple-200 shadow-xl rounded-xl p-8" key={t.id}>
             <ul>
-              <li>
+              <li class="text-xl font-semibold ">
                 Created At: <span>{t.created_at}</span>
               </li>
-              <li>
+              <li class=" text-lg font-medium">
                 Tweet: <span>{t.text}</span>
               </li>
             </ul>
