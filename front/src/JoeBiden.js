@@ -13,7 +13,7 @@ const JoeBiden = () => {
         console.log(data);
         setTweet(data);
       });
-  }, []);
+  }, [setTweet]);
 
   return (
     <div class=" mx-10 lg:mx-60 my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
