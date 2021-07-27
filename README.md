@@ -11,7 +11,7 @@ https://github.com/aruchowdhury/joehilari-tweets/blob/branch-1/back/API_DOCS.md
 
 ### Technologies used
 
-React, Styled-components, Node, Express, TailwindCSS, Moment.
+React, Styled-components, Node, Express, TailwindCSS, Moment and React-card-flip.
 
 ### Demo video:
 

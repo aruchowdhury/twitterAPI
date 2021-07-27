@@ -15,7 +15,7 @@ function App() {
         <GlobalStyles />
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/hilari">
             <HilariClinton />
           </Route>
           <Route exact path="/biden">
