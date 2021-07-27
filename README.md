@@ -9,18 +9,19 @@ Server runs on http://localhost:8000
 
 https://github.com/aruchowdhury/joehilari-tweets/blob/branch-1/back/API_DOCS.md
 
-
-### Technologies used 
+### Technologies used
 
 React, Styled-components, Node, Express, TailwindCSS, Moment.
 
-### Demo video: 
+### Demo video:
 
 ### Features
 
 This is a mobile responsive web-based application where anyone can check latest 20 tweets from Joe Biden and Hilari Clinton.
 To switch the view from Hilari clinton to Joe Biden user have to click on the navigation icon at the top right corner.
 
-![](front/src/assets/img1.png)
+![](front/assets/img11.png)
 
-<img src="front/src/assets/img2.png" width= "400px">
+![](front/assets/img22.png)
+
+<img src="front/assets/img33.png" width= "400px">
