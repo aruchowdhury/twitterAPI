@@ -5,6 +5,9 @@ import JoeBiden from "./JoeBiden";
 import GlobalStyles from "./GlobalStyles";
 import HilariClinton from "./HilariClinton";
 
+// Using react router created 2 routes for displaying
+// HilariClinton and JoeBiden components
+
 function App() {
   return (
     <>

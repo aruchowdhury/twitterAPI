@@ -4,8 +4,10 @@ import { AppContext } from "./AppContext";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  //Receiving states using react context
   const { toggle, handleToggle } = useContext(AppContext);
 
+  //Using toggle state and handleToggle function to switch screens/components
   return (
     <Wrapper>
       {toggle ? (
