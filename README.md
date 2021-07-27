@@ -24,4 +24,4 @@ To switch the view from Hilari clinton to Joe Biden user have to click on the na
 
 ![](front/assets/img22.png)
 
-<img src="front/assets/img33.png" width= "400px">
+<img src="front/assets/img33.png" width= "300px">
