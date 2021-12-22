@@ -1,6 +1,6 @@
 # joehilari-tweets API docs
 
-The joehilari-tweets API has been created for education purpose. It is pulling Joe Biden and Hilari Clinton's timeline tweets.
+The joehilari-tweets API has been created for education purpose. It is pulling Joe Biden and Elon Musk's timeline tweets.
 
 ---
 
