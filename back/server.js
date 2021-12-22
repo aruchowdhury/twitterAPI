@@ -60,17 +60,17 @@ let getTweet = async (req, res, streamURL) => {
 };
 
 //Endpoint to get latest 20 tweet from joe Biden's timeline
-app.get("/api/tweet/Joe-Biden", async (req, res) => {
+app.get("/api/tweet/biden", async (req, res) => {
   const streamURL = new URL(
-    "https://api.twitter.com/2/users/1349149096909668363/tweets?pagination_token=7140dibdnow9c7btw3z16xcn54ryhshh2zyfxg4lctfeh&tweet.fields=created_at&expansions=author_id&user.fields=created_at&max_results=20"
+    "https://api.twitter.com/2/users/1349149096909668363/tweets?max_results=30&tweet.fields=created_at,public_metrics"
   );
   return getTweet(req, res, streamURL);
 });
 
 //Endpoint to get latest 20 tweet from Hilari Clinton's timeline
-app.get("/api/tweet/Hilari-Clinton", async (req, res) => {
+app.get("/api/tweet/musk", async (req, res) => {
   const streamURL = new URL(
-    "https://api.twitter.com/2/users/1339835893/tweets?pagination_token=7140dibdnow9c7btw3z16xcn54ryhshh2zyfxg4lctfeh&tweet.fields=created_at&expansions=author_id&user.fields=created_at&max_results=20"
+    "https://api.twitter.com/2/users/44196397/tweets?max_results=30&tweet.fields=created_at,public_metrics"
   );
   return getTweet(req, res, streamURL);
 });
@@ -78,5 +78,5 @@ app.get("/api/tweet/Hilari-Clinton", async (req, res) => {
 //Error message
 app.use((req, res) => res.status(404).type("txt").send("🤷‍♂️"));
 
-//Server running port
+//Server running on port
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

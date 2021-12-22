@@ -11,12 +11,12 @@ const Header = () => {
   //Using isFlipped state and handleFlip function to switch screens/components
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
-      <Link to="/hilari">
+      <Link to="/musk">
         <NameDiv onClick={handleFlip}>Joe Biden's Tweets</NameDiv>
       </Link>
 
       <Link to="/biden">
-        <NameDiv onClick={handleFlip}>Hilari Clinton's Tweets</NameDiv>
+        <NameDiv onClick={handleFlip}>Elon Musk's Tweets</NameDiv>
       </Link>
     </ReactCardFlip>
   );

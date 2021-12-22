@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Header";
 import JoeBiden from "./JoeBiden";
 import GlobalStyles from "./GlobalStyles";
-import HilariClinton from "./HilariClinton";
+import ElonMusk from "./ElonMusk";
 
 // Using react router created 2 routes for displaying
 // HilariClinton and JoeBiden components
@@ -15,8 +15,8 @@ function App() {
         <GlobalStyles />
         <Header />
         <Switch>
-          <Route exact path="/hilari">
-            <HilariClinton />
+          <Route exact path="/musk">
+            <ElonMusk />
           </Route>
           <Route exact path="/biden">
             <JoeBiden />

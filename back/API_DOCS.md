@@ -36,10 +36,10 @@ These endpoints control user-specific data.
 ]
 ```
 
-### GET `/api/tweet/Hilari-Clinton`
+### GET `/api/tweet/musk`
 
-Brought all tweet data from public profile time-line of Hilari Clinton using twitter API
+Brought all tweet data from public profile time-line of Elon Musk using twitter API
 
-### GET `/api/tweet/Joe-Biden`
+### GET `/api/tweet/biden`
 
 Brought all tweet data from public profile time-line of Joe-Biden using twitter API
