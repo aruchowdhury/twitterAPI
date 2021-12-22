@@ -6,7 +6,7 @@ The joehilari-tweets API has been created for education purpose. It is pulling J
 
 # Setup and ports
 
-Run `yarn install` to install all dependencies for joehilari-tweets.
+Run `yarn install` to install all dependencies for twitterAPI.
 Run `yarn start` to start the server.
 
 The server runs on port 8000, so you can access the server at http://localhost:8000/
