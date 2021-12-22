@@ -7,7 +7,7 @@ Server runs on http://localhost:8000
 
 ### API DOcs
 
-https://github.com/aruchowdhury/joehilari-tweets/blob/branch-1/back/API_DOCS.md
+https://github.com/aruchowdhury/twitterAPI/blob/main/back/API_DOCS.md
 
 ### Technologies used
 
