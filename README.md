@@ -1,6 +1,6 @@
-# joehilari-tweets
+# twitterAPI
 
-The joehilari-tweets API has been created for education purpose. It is pulling Joe Biden and Hilari Clinton's timeline tweets.
+The twitterAPI has been created for education purpose. It is pulling Joe Biden and Elon musk's timeline tweets.
 
 Open http://localhost:3000 to view it in the browser.
 Server runs on http://localhost:8000
@@ -17,8 +17,8 @@ React, Styled-components, Node, Express, TailwindCSS, Moment and React-card-flip
 
 ### Features
 
-This is a mobile responsive web-based application where anyone can check latest 20 tweets from Joe Biden and Hilari Clinton.
-To switch the view from Hilari clinton to Joe Biden user have to click on the navigation icon at the top right corner.
+This is a mobile responsive web-based application where anyone can check latest 30 tweets from Joe Biden and Elon Musk.
+To switch the view from Elon Musk to Joe Biden user have to click on the navigation icon at the top right corner.
 
 ![](front/assets/img11.png)
 
