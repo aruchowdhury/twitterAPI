@@ -14,10 +14,6 @@ const TweetCard = ({ tweets }) => {
         <li class=" text-xl font-medium">
           Tweet: <span>{tweets.text}</span>
         </li>
-        {/* <li class=" text-xl font-medium">
-          Tweet:{" "}
-          <span>{tweets.public_metrics.map((t) => t.retweet_count)}</span>
-        </li> */}
       </ul>
     </div>
   );

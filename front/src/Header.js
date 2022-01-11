@@ -4,11 +4,8 @@ import { AppContext } from "./AppContext";
 import { Link } from "react-router-dom";
 import ReactCardFlip from "react-card-flip";
 const Header = () => {
-  //Receiving states using react context
   const { isFlipped, handleFlip } = useContext(AppContext);
 
-  //Used react-card-flip to flip header
-  //Using isFlipped state and handleFlip function to switch screens/components
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
       <Link to="/musk">
@@ -23,23 +20,6 @@ const Header = () => {
 };
 
 export default Header;
-
-// const Wrapper = styled.div`
-//   height: 5rem;
-//   width: 100%;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   flex-wrap: wrap;
-//   font-size: 1.2rem;
-//   margin-left: 5px;
-//   margin-top: 5px;
-//   /* background-color: #b8b5ff; */
-//   @media screen and (max-width: 800px) {
-//     display: flex;
-//     justify-content: center;
-//   }
-// `;
 
 const NameDiv = styled.button`
   height: 100%;
